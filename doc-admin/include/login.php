@@ -39,7 +39,7 @@ if (!$gateKeeper->isAccessAllowed()) { ?>
 
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox" name="vfm_remember" value="yes"> 
+                        <input type="checkbox" name="doc_remember" value="yes"> 
                         <?php print $encodeExplorer->getString("remember_me"); ?>
                     </label>
                 </div>
@@ -47,8 +47,8 @@ if (!$gateKeeper->isAccessAllowed()) { ?>
             <?php 
             /* ************************ CAPTCHA ************************* */
     if ($setUp->getConfig("show_captcha") == true ) { 
-        $capath = "vfm-admin/";
-        include "vfm-admin/include/captcha.php"; 
+        $capath = "doc-admin/";
+        include "doc-admin/include/captcha.php"; 
     }   ?>
                 <button type="submit" class="btn btn-primary btn-block" />
                     <i class="fa fa-sign-in"></i> 
@@ -66,7 +66,7 @@ if ($gateKeeper->isAccessAllowed()
     && $gateKeeper->showLoginBox()
 ) { ?>
 
-        <section class="vfmblock">
+        <section class="docblock">
             <form enctype="multipart/form-data" method="post" 
             action="<?php print $encodeExplorer->makeLink(false, null, ""); ?>"
             class="form-inline" role="form">
@@ -97,8 +97,8 @@ if ($gateKeeper->isAccessAllowed()
             <?php 
             /* ************************ CAPTCHA ************************* */
     if ($setUp->getConfig("show_captcha") == true ) { 
-        $capath = "vfm-admin/";
-        include "vfm-admin/include/captcha.php"; 
+        $capath = "doc-admin/";
+        include "doc-admin/include/captcha.php"; 
     }   ?>
                     <button type="submit" class="btn btn-primary" />
                         <i class="fa fa-sign-in"></i> 
