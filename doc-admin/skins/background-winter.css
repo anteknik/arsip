@@ -1,0 +1,190 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: background-wood.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 1.0
+
+   	color scheme:
+	body background: #151415;
+	body color: #f4f2f6;
+
+	link color: #fff;
+	link hover color: #e9f3ff;
+
+	primary: #e0e0e0;
+ */
+
+body{
+	color: #fff;
+	background:url(images/winter.jpg) no-repeat center center fixed #151415;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+hr{
+	border-color: #372a24;
+}
+a{
+	color: #fff;
+}
+a:hover, a:active, a:focus{
+	color: #e9f3ff;
+	text-decoration: none;
+}
+.del a{
+	color:#ff3513;
+}
+.del a:hover{
+	color:#ff8826;
+}
+.btn{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	color: #333;
+
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active,
+.btn-default,
+.btn-default.disabled, 
+.btn-default[disabled], 
+fieldset[disabled] .btn-default, 
+.btn-default.disabled:hover, 
+.btn-default[disabled]:hover, 
+fieldset[disabled] .btn-default:hover, 
+.btn-default.disabled:focus, 
+.btn-default[disabled]:focus, 
+fieldset[disabled] 
+.btn-default:focus, 
+.btn-default.disabled:active, 
+.btn-default[disabled]:active, 
+fieldset[disabled] .btn-default:active, 
+.btn-default.disabled.active, 
+.btn-default.active[disabled], 
+fieldset[disabled] .btn-default.active{
+	background: #fff;
+	border-color: #fff;
+	color: #333;
+}
+.input-group-addon, .panel, .form-control, .dataTables_filter input{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;	
+}
+.panel, .modal{
+	color: #514d4a;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active {
+	border-color: #e0e0e0;
+}
+.modal .btn-primary{
+	color: #38301b;
+	border-color: #523c26;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary{
+	background: #f6edf1;
+	border-color: #f6edf1;
+	color: #181818;
+}
+.panel .btn-primary{
+	color: #525050;
+}
+
+.btn-info{
+	color: #dfd5d9;
+	border-color: #f4f2f6;
+}
+.overdrag{
+	background:#fff;
+	background: rgba(0,0,0,0.5);
+}
+.overdrag:after {
+  color: #f7f6e4;
+}
+
+.uploadarea{
+	background: none;
+	-webkit-box-shadow:  none;
+	box-shadow:  none;
+	padding: 0;
+}
+.progress{
+	background: none;
+}
+ .tableblock{
+	background: rgba(40,43,39,0.5);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, 
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background: rgba(0,0,0,0.1);
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none;
+}
+
+#sortable>tbody>tr:hover>td,
+#sortable>tbody>tr:hover>th,
+#sort>tbody>tr:hover>td,
+#sort>tbody>tr:hover>th{
+	background-color:#05060f; 
+	background-color: rgba(0,0,0,0.3);
+}
+
+.uploadarea .form-control[disabled], 
+.uploadarea .form-control[readonly], 
+.uploadarea  fieldset[disabled] .form-control,
+{
+    background: rgba(255,255,255,0.5);
+}
+.uploadarea .input-group-addon, 
+.tableblock .input-group-addon{
+	background: rgba(255,255,255,0.8);
+	color: #333;
+}
+
+.dataTables_filter input,
+.uploadarea  .form-control {
+	background: rgba(255,255,255,0.5);
+	color: #333;
+}

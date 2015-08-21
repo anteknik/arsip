@@ -1,0 +1,80 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: a-flat-green.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+   	color scheme:
+	body background: #aed089;
+	body color: #333;
+
+	link color: #023d22;
+	link hover color: #4d7b68;
+	
+	primary: #4d7b68;
+
+ */
+body{
+	background: #aed089;
+}
+a{
+	color: #023d22;
+}
+a:hover, a:active, a:focus{
+	color: #4d7b68;
+	text-decoration: none;
+}
+.del a{
+	color:#820104;
+}
+.del a:hover{
+	color:#ff3513;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active {
+	background: #4d7b68;
+	border-color: #416858;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+	background: #416858;
+	border-color: #416858;
+}
+.uploadarea, .tableblock{
+	background: #c8e18e;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #e0ef89;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border: none;
+}
+
+.dataTables_paginate > a, .dataTables_paginate > span > a {
+	border: none;
+}
+.dataTables_paginate > .paginate_active, .dataTables_paginate > span > .paginate_active {
+    background-color: #e0ef89;
+
+}
+hr{
+	border-color: #7cc38c;
+}
+.overdrag{
+	background:#72ca77;
+	background: rgba(114,202,119,0.5);
+}

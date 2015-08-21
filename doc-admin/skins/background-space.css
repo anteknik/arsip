@@ -1,0 +1,206 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: background-space.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+    color scheme:
+	body background: #2a0311;
+	body color: #f4f2f6;
+
+	link color: #fff;
+	link hover color: #fff3f4;
+
+	primary: transparent;
+ */
+
+body{
+	color: #f4f2f6;
+	background:url(images/nebula.jpg) no-repeat center center fixed #2a0311;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+a{
+	color: #fff;
+}
+a:hover, a:active, a:focus{
+	color: #fff3f4;
+	text-decoration: none;
+}
+.del a{
+	color:#ff3513;
+}
+.del a:hover{
+	color:#ff8826;
+}
+hr{
+	border-color: #372a24;
+}
+.btn{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active,
+.btn-default,
+.btn-default.disabled, 
+.btn-default[disabled], 
+fieldset[disabled] .btn-default, 
+.btn-default.disabled:hover, 
+.btn-default[disabled]:hover, 
+fieldset[disabled] .btn-default:hover, 
+.btn-default.disabled:focus, 
+.btn-default[disabled]:focus, 
+fieldset[disabled] 
+.btn-default:focus, 
+.btn-default.disabled:active, 
+.btn-default[disabled]:active, 
+fieldset[disabled] .btn-default:active, 
+.btn-default.disabled.active, 
+.btn-default.active[disabled], 
+fieldset[disabled] .btn-default.active{
+	background: none;
+	border-color: #fff;
+}
+.input-group-addon, .form-control, .dataTables_filter input{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;	
+}
+.panel, .modal, .dataTables_filter input{
+	color: #514d4a;
+}
+.modal .btn{
+	background: #30040e;
+}
+.modal .btn-primary:hover, 
+.modal .btn-primary:focus, 
+.modal .btn-primary:active, 
+.modal .btn-primary.active, 
+.modal .open .dropdown-toggle.btn-primary{
+	background: none;
+	color: #30040e;
+	border-color: #30040e;
+}
+.modal a:hover,.modal a:active, .modal a:focus{
+	color: #60071c;
+}
+.uploadarea .btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active {
+	border-color: #e0e0e0;
+}
+.uploadarea .btn-primary:hover, 
+.uploadarea .btn-primary:focus, 
+.uploadarea .btn-primary:active, 
+.uploadarea .btn-primary.active, 
+.uploadarea .open .dropdown-toggle.btn-primary{
+	border-color: #e0e0e0;
+	background: #fff;
+	color: #30040e;
+}
+.panel .btn-primary{
+	color: #30040e;
+}
+.panel .btn-primary:hover, 
+.panel .btn-primary:focus, 
+.panel .btn-primary:active{
+	color: #fff;
+}
+.btn-info{
+	color: #46b8da;
+
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, 
+.btn-info.active, .open .dropdown-toggle.btn-info{
+	background: #46b8da;
+	color: #fff;
+	border-color: #46b8da;
+}
+.overdrag{
+	background:#fff;
+	background: rgba(0,0,0,0.5);
+}
+.overdrag:after {
+  color: #f7f3e6;
+}
+.btn-default {
+	color: #fff;
+}
+.uploadarea{
+	background: none;
+	-webkit-box-shadow:  none;
+	box-shadow:  none;
+	padding: 0;
+}
+.progress{
+	background: none;
+}
+ .tableblock{
+	background: rgba(40,43,39,0.5);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, 
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background: rgba(0,0,0,0.1);
+}
+.table > thead > tr > th, .table > tbody > tr > th, 
+.table > tfoot > tr > th, .table > thead > tr > td, 
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none;
+}
+#sortable>tbody>tr:hover>td,
+#sortable>tbody>tr:hover>th,
+#sort>tbody>tr:hover>td,
+#sort>tbody>tr:hover>th{
+	background-color: #0e050f; 
+	background-color: rgba(0,0,0,0.3);
+}
+
+.uploadarea .form-control[disabled], 
+.uploadarea .form-control[readonly], 
+.uploadarea  fieldset[disabled] .form-control,
+{
+    background: none;
+}
+.uploadarea .input-group-addon, 
+.tableblock .input-group-addon,
+.dataTables_filter input,
+.uploadarea  .form-control {
+    color: #fff;
+    background: none;
+}

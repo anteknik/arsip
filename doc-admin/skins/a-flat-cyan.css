@@ -1,0 +1,87 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: a-flat-cyan.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+   	color scheme:
+	body background: #cde4ff;
+	body color: #333;
+
+	link color: #0e143d;
+	link hover color: #32507b;
+	
+	primary: #3f5c84;
+ */
+body{
+	background: #cde4ff;
+}
+a{
+	color: #0e143d;
+}
+a:hover, a:active, a:focus{
+	color: #32507b;
+	text-decoration: none;
+}
+.del a{
+	color:#820104;
+}
+.del a:hover{
+	color:#ff3513;
+}
+.uploadarea, .tableblock{
+	background: #b8dbf4;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #a2c9e6;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border: none;
+}
+
+.dataTables_paginate > a, .dataTables_paginate > span > a {
+	border: none;
+}
+.dataTables_paginate > .paginate_active, .dataTables_paginate > span > .paginate_active {
+    background-color: #a2c9e6;
+
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active {
+	background-color: #3f5c84;
+	border-color: #304562;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+	background-color: #304562;
+	border-color: #304562;
+}
+.btn-success{
+	background-color: #7dcfbe;
+	border-color: #4eda9c;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success{
+	background-color: #6fbaad;
+	border-color: #4eda9c;
+}
+hr{
+	border-color: #b9d0ea;
+}
+.overdrag{
+	background:#90a7e9;
+	background: rgba(90,167,233,0.5);
+}

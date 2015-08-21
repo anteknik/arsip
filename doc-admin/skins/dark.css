@@ -1,0 +1,128 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: dark.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+  	color scheme:
+	body background: #131212;
+	body color: #5e5e5e;
+
+	link color: #579c3e;
+	link hover color: #8bd050;
+
+	primary: #1c1b1b;
+ */
+body{
+	background: #131212;
+	color: #5e5e5e;
+}
+a{
+	color: #579c3e;
+}
+a:hover, a:active, a:focus{
+	color: #8bd050;
+	text-decoration: none;
+}
+.icon a{
+	color: #988e49;
+}
+.icon a:hover{
+	color: #d0bf60;
+}
+.del a{
+	color:#820104;
+}
+.del a:hover{
+	color:#ff3513;
+}
+.btn-default{
+	background: #3e3c3c;
+	border-color: #444444;
+	color: #b0acac;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active {
+	background: #1c1b1b;
+	border-color: #292929;
+	color: #b0acac;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+	background: #2a2a2a;
+	border-color: #514d4a;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{
+	background: #2a2a2a;
+	border-color: #2b2927;
+	color: #b0acac;
+
+}
+.langmenu .btn{
+	background: #1c1c1c;
+	border-color: #0a0a0a;
+	color: #898989;
+}
+.langmenu .btn:hover{
+	background: #2a2a2a;
+}
+
+.uploadarea, .tableblock{
+	background: #1c1c1c;
+}
+.uploadarea .progress{
+	background-color: #282828;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #1c1c1c;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #3c3c3c;
+}
+.form-control {
+	background: #EEEEEE;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	background: #CCCCCC;
+}
+
+.dataTables_filter input{
+	background-color: #161616;
+	border:1px solid #262626;
+	color: #555;
+}
+.dataTables_length select{
+	background-color: #161616;
+	border:1px solid #262626;
+	color: #d7d7d7;
+}
+.dataTables_filter .input-group-addon{
+	background-color: #161616;
+	border:1px solid #262626;
+	color: #333333;
+}
+.dataTables_paginate > a,
+.dataTables_paginate > span > a {
+	border: none;
+	margin: 0;
+}
+.dataTables_paginate > .paginate_active, .dataTables_paginate > span > .paginate_active{
+	color: #fff;
+}
+hr{
+	border-color: #272727;
+}

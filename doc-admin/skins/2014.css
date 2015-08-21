@@ -1,0 +1,205 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: vfm-2014.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+    color scheme:
+	body background: #265f7f to #4394bd;
+	body color: #f2fdff;
+
+	link color: #fff;
+	link hover color: #f9f7ff;
+
+	primary: transparent;
+ */
+
+body{
+	color: #f2fdff;
+	background: #265f7f;
+	background: -moz-linear-gradient(top,  #265f7f 0%, #4394bd 62%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#265f7f), color-stop(62%,#4394bd));
+	background: -webkit-linear-gradient(top,  #265f7f 0%,#4394bd 62%);
+	background: -o-linear-gradient(top,  #265f7f 0%,#4394bd 62%);
+	background: -ms-linear-gradient(top,  #265f7f 0%,#4394bd 62%);
+	background: linear-gradient(to bottom,  #265f7f 0%,#4394bd 62%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#265f7f', endColorstr='#4394bd',GradientType=0 );
+    min-height: 100%;
+        
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+hr{
+	border-color: #265f7f;
+}
+a{
+	color: #fff;
+}
+a:hover, a:active, a:focus{
+	color: #f9f7ff;
+	text-decoration: none;
+}
+.del a{
+	color:#ff3513;
+}
+.del a:hover{
+	color:#ff8826;
+}
+.btn{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+}
+.uploadarea .form-control{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	border-color:#fff;
+}
+.form-control, .dataTables_filter input, .input-group-addon{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+}
+.panel, .modal{
+	color: #514d4a;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active,
+.btn-default,
+.btn-default.disabled, 
+.btn-default[disabled], 
+fieldset[disabled] .btn-default, 
+.btn-default.disabled:hover, 
+.btn-default[disabled]:hover, 
+fieldset[disabled] .btn-default:hover, 
+.btn-default.disabled:focus, 
+.btn-default[disabled]:focus, 
+fieldset[disabled] 
+.btn-default:focus, 
+.btn-default.disabled:active, 
+.btn-default[disabled]:active, 
+fieldset[disabled] .btn-default:active, 
+.btn-default.disabled.active, 
+.btn-default.active[disabled], 
+fieldset[disabled] .btn-default.active{
+	border-color: #e0e0e0;
+	background: none;
+}
+.modal .btn-primary{
+	color: #fff;
+	background: #4394bd;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary{
+	background: #fff;
+	border-color: #e0e0e0;
+	color: #4394bd;
+}
+.panel .btn-primary{
+	background: #4394bd;
+}
+.panel .btn-primary:hover, 
+.panel .btn-primary:focus, 
+.panel .btn-primary:active{
+	background: #fff;
+}
+.btn-info{
+	color: #fff;
+	border-color:#fff;
+}
+.overdrag{
+	background:#fff;
+	background: rgba(0,0,0,0.5);
+}
+.overdrag:after {
+  color: #f7f6e4;
+}
+.btn-default {
+	color: #fff;
+}
+.uploadarea{
+	background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 0;
+}
+.progress{
+	background: none;
+}
+ .tableblock{
+	background: rgba(0,0,0,0.1);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, 
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background: rgba(0,0,0,0.1);
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, 
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none;
+}
+
+#sortable>tbody>tr:hover>td,
+#sortable>tbody>tr:hover>th,
+#sort>tbody>tr:hover>td,
+#sort>tbody>tr:hover>th{
+	background-color:#05060f; 
+	background-color: rgba(0,0,0,0.2);
+}
+
+.uploadarea .form-control[disabled], 
+.uploadarea .form-control[readonly], 
+.uploadarea  fieldset[disabled] .form-control,
+{
+    background: rgba(255,255,255,0.1);
+}
+.uploadarea .input-group-addon, 
+.tableblock .input-group-addon,
+.dataTables_filter input,
+.uploadarea .form-control{
+	background: none;
+	color: #fff;
+}
+.login .form-control {
+	background: rgba(255,255,255,0.1);
+	color: #fff;
+	border: none;
+	-webkit-box-shadow:inset 0 0 2px 0 rgba(0,0,0,0.4);
+	box-shadow:inset 0 0 2px 0 rgba(0,0,0,0.4);
+}
+.panel .form-control {
+	color: #413f41;
+}
+.form-control::-moz-placeholder{
+	color:#79acc4;
+}
+.form-control:-ms-input-placeholder{
+	color:#79acc4;
+}
+.form-control::-webkit-input-placeholder{
+	color:#79acc4;
+}

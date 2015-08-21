@@ -1,0 +1,69 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: blank.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2.0
+
+ 	color scheme:
+	body background: #fcfcfc;
+	body color: #767d7f;
+
+	primary: #3a3737;
+
+	link color: #767d7f;
+	link hover color: #414e52;
+	
+ */
+ body{
+ 	background: #fcfcfc;
+ }
+a{
+	color: #767d7f;
+}
+a:hover, a:active, a:focus{
+	color: #414e52;
+	text-decoration: none;
+}
+
+.del a{
+	color:#820104;
+}
+.del a:hover{
+	color:#ff3513;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active{
+	background: #3a3737;
+	border-color: #202020;
+	color: #eaeaea;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary{
+	background: #141414;
+}
+
+.overdrag{
+	background:#fff;
+	background: rgba(255,255,255,0.5);
+}
+.overdrag:after {
+  color: #313131;
+}

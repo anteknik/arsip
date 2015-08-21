@@ -1,0 +1,93 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: lila.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+    color scheme:
+	body background: #ffffff to #dfd9ef;
+	body color: #333;
+
+	link color: #61449c;
+	link hover color: #9d69d0;
+
+	primary: #905fa8;
+ */
+body{
+background: #ffffff;
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 45%, #dfd9ef 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(45%,#ffffff), color-stop(100%,#dfd9ef));
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 45%,#dfd9ef 100%);
+background: -o-radial-gradient(center, ellipse cover,  #ffffff 45%,#dfd9ef 100%);
+background: -ms-radial-gradient(center, ellipse cover,  #ffffff 45%,#dfd9ef 100%);
+background: radial-gradient(ellipse at center,  #ffffff 45%,#dfd9ef 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfd9ef',GradientType=1 );
+
+}
+a{
+	color: #61449c;
+}
+a:hover, a:active, a:focus{
+	color: #9d69d0;
+	text-decoration: none;
+}
+.icon a{
+	color: #676498;
+}
+.icon a:hover{
+	color: #8f7bd0;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active{
+	background: #905fa8;
+	border-color: #784f8c;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary{
+	background: #784f8c;
+	border-color: #784f8c;
+}
+.del a{
+	color:#820104;
+}
+.del a:hover{
+	color:#ff3513;
+}
+.btn-success, .btn-info{
+	background-color: #dccaef;
+	border-color: #cbbbe0;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success,
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+	background-color: #d5b3ef;
+	border-color: #cbbbe0;
+}
+hr{
+	border-color: #dfd9ef;
+}
+.overdrag{
+	background:#a074f7;
+	background: rgba(160,116,247,0.5);
+}
+.overdrag{
+	background:#a072f7;
+	background: rgba(160,114,247,0.5);
+}

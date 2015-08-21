@@ -1,0 +1,99 @@
+ /**
+ * VFM - veno file manager SKIN
+ 	- skin: a-flat-magenta.css
+ 	- author: @NicolaFranchini
+ 	- author URI: http://www.veno.it/
+ 	- version: 2
+
+  	color scheme:
+	body background: #ff939c;
+	body color: #333;
+
+	link color: #3d0511;
+	link hover color: #9e3b51;
+	
+	primary: #eb766e;
+
+ */
+body{
+	background: #ff939c;
+}
+a{
+	color: #3d0511;
+}
+a:hover, a:active, a:focus{
+	color: #9e3b51;
+	text-decoration: none;
+}
+.del a{
+	color:#820104;
+}
+.del a:hover{
+	color:#ff3513;
+}
+.uploadarea, .tableblock{
+	background: #ff9a8d;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th
+{
+    background-color: #ffae94;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border: none;
+}
+
+.dataTables_paginate > a, .dataTables_paginate > span > a {
+	border: none;
+}
+.dataTables_paginate > .paginate_active, .dataTables_paginate > span > .paginate_active {
+    background-color: #ffae94;
+}
+.btn-primary,
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary.active[disabled], 
+fieldset[disabled] .btn-primary.active {
+    background-color: #eb766e;
+    border-color: #eb6662;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+    background-color: #dc6e67;
+    border-color: #dc5955;
+}
+.btn-success{
+	background-color: #eb4e51;
+	border-color: #cf464b;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success{
+	background-color: #de4b50;
+	border-color: #cf464b;
+}
+.btn-info{
+	background-color: #eb8f86;
+	border-color: #eb8075;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info{
+	background-color: #eb756d;
+	border-color: #cf464b;
+}
+hr{
+	border-color: #ff6364;
+}
+
+.overdrag{
+	background:#f7959e;
+	background: rgba(247,149,158,0.5);
+}
